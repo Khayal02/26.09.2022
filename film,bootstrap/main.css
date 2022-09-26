@@ -1,0 +1,211 @@
+*{
+    padding:0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header {
+    background-image:url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+.inline{
+    display: inline;
+}
+nav{
+width: 80%;
+height: 11vh;
+display: block;
+margin-left: 154px;
+
+position: fixed ;
+/* background-color: rgb(94, 89, 82); */
+}
+nav li{
+    font-size: 15px;
+    color: rgba(220, 211, 206, 0.863);
+    float: right;
+    margin-top: 27px;
+    margin-left: 35px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+nav a{
+    text-decoration: none;
+    color:  rgba(220, 211, 206, 0.863);
+}
+nav h1{
+
+    float: left;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 21px;
+}
+nav h1 a{
+    color: rgba(220, 211, 206, 0.863);
+}
+.home{
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    padding-top: 70px;
+}
+.home h1{
+    font-size: 53px;
+    text-align: center;
+    padding-top: 145px;
+    color:rgb(240, 166, 166);
+    font-family: sans-serif;
+}
+.home h2{
+font-family: sans-serif;
+font-size: 21px;
+text-align: center;
+padding-top: 50PX;
+color: rgba(220, 211, 206, 0.863); 
+}
+.home h3{
+    font-size: 30px;
+    color: rgb(255, 106, 0);
+    text-align: center;
+}
+.home button{
+border: none;
+border-radius: 40px;
+font-size:18px ;
+padding: 20px 25px;
+background-color: rgb(255, 106, 0);
+color: white;
+display: block;
+margin: auto;
+margin-top: 50px;
+}
+button a{
+    color: white;
+    font-family: sans-serif;
+font-weight: 700;
+}
+.start{
+    width: 100%;
+    height: 63vh;
+    background-color: rgba(255, 94, 0, 0.84);
+}
+.start h1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding-top: 140px;
+}
+.start p{
+    font-size:30px ;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+.start h2{
+font-family: sans-serif;
+font-size: 17px;
+text-align: center;
+padding-top: 50PX;
+color: rgb(220, 211, 206); 
+}
+.start h3{
+font-family: sans-serif;
+font-size: 17px;
+text-align: center;
+color: rgb(220, 211, 206); 
+}
+.start button{
+    border: none;
+    border-radius: 40px;
+    font-size:18px ;
+    padding: 20px 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+.start a{
+    color: rgb(0, 0, 0);
+}
+.service{
+    width: 100%;
+    height: 70vh;
+}
+.service h1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 120px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.service h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20PX;
+    color: rgb(255, 89, 0); 
+}
+.service .icons{
+    float:left;
+    margin-left: 64px;
+   
+    width: 300px;
+    height: 250px;
+}
+.icons .pic{
+    font-size: 60px;
+    color: rgb(255, 89, 0);
+    margin-left:120px ;
+    margin-top: 40px;
+}
+.icons h1{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.service h2{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10PX;
+    color: rgb(162, 161, 160); 
+}
+.photos{
+    width: 100%;
+    height: 82vh;
+    background-color: bisque;
+    background-color: rgba(255, 94, 0, 0.73);
+}
+.imgstop{
+    float: left;
+    height: 41vh;
+    width: 506px;
+    
+}
+.imgtxt{
+    background-color: rgba(255, 94, 0, 0.73);
+    height: 41vh;
+    width: 506px;
+    opacity: 0;
+    transition: .5s;
+    cursor: pointer;
+}
+.imgtxt:hover{   
+    
+    opacity: 1;
+}
+.imgtxt h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
